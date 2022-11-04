@@ -1,5 +1,4 @@
 package ProductOneTask;
-
 public class AddRuntimeException extends RuntimeException{
     public AddRuntimeException() {
     }

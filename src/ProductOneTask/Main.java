@@ -1,10 +1,5 @@
 package ProductOneTask;
 
-
-import javax.print.PrintException;
-import java.util.HashSet;
-import java.util.Set;
-
 public class Main {
     public static void main(String[] args){
         ProductList productList = new ProductList();
