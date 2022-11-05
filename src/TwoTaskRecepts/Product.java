@@ -1,4 +1,4 @@
-package ProductOneTask;
+package TwoTaskRecepts;
 
 import java.util.Objects;
 
@@ -59,6 +59,6 @@ public class Product {
     public String toString() {
         String buy= this.isBuy() ? "Да" : "Нет";
 
-        return name + "/масса-" + prise + "кг/количество-" + quantity + " штук" + " Куплен: "+ buy ;
+        return name + "/цена-" + prise + "рублей/количество-" + quantity + " штук" + " Куплен: "+ buy ;
     }
 }

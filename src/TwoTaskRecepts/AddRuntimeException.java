@@ -1,4 +1,4 @@
-package ProductOneTask;
+package TwoTaskRecepts;
 public class AddRuntimeException extends RuntimeException{
     public AddRuntimeException() {
     }

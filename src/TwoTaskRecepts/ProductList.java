@@ -1,4 +1,4 @@
-package ProductOneTask;
+package TwoTaskRecepts;
 
 import java.util.HashSet;
 import java.util.Iterator;
