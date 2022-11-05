@@ -14,7 +14,12 @@ public class Pasport {
     public Pasport(int number, String lastName, String middleName, String name, LocalDate localDate) {
         this.number = number;
         this.lastName = lastName;
-        this.middleName = middleName;
+        if(middleName.isBlank()){
+            this.middleName = middleName;
+        }
+        else {
+            this.middleName = middleName;
+        }
         this.name = name;
         this.localDate = localDate;
     }
@@ -54,8 +59,8 @@ public class Pasport {
 
     @Override
     public String toString() {
-        return "Паспорт:" +"\n" +
-                "Номер:" + number +"\n" +
+        return "Паспорт:" + "\n" +
+                "Номер:" + number + "\n" +
                 "Фамилия:" + lastName + "\n" +
                 "Отчество:" + middleName + "\n" +
                 "Имя:" + name + "\n" +
